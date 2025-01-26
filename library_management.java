@@ -162,7 +162,7 @@ public class library_management
     }
 
 
-	
+	//This is deletekey
 	void deleteKey(String key) 
     { 
         root = deleteRec(root, key); 
@@ -603,7 +603,7 @@ public class library_management
 			break;
 			}
 			
-		}
+		}//now we have to close all the open things.
 		br.close();
 		fr.close();
 		br1.close();
